@@ -20,13 +20,16 @@ pygame.draw.rect(screen,BLUE,blue_rect)
 # Creating WHITE color using RGB combinations and naming it as 'WHITE'
 WHITE=(255,255,255)
 # Creating and displaying WHITE rectangle
-white_rect=pygame.Rect(200,230,30,30)
+# Keep the x-coordinate same and change only the y-coordinate. 
+white_rect=pygame.Rect(200,      ,30,30)
 pygame.draw.rect(screen,WHITE,white_rect)
 
 # Creating PINK color using RGB combinations and naming it as 'PINK'
-PINK=(255,0,104)
+# Mixing RED and BLUE gives shades of PINK
+PINK=(              )
 # Creating and displaying WHITE rectangle
-pink_rect=pygame.Rect(200,260,30,30)
+# Keep the x-coordinate same and change only the y-coordinate. 
+pink_rect=pygame.Rect(200,      ,30,30)
 pygame.draw.rect(screen,PINK,pink_rect)
 
 # Updating the screen display
